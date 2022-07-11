@@ -1,6 +1,4 @@
-// function addSuffix(num: number): string {
-
-function ordinalSuffix(num) {
+function ordinalSuffix(num: number): string {
   // convert to string
   let str = num.toString();
 
@@ -14,7 +12,6 @@ function ordinalSuffix(num) {
 
   // get last digit
   const last = str.substring(str.length - 1);
-
 
   // assign suffix based on last digit
   switch(last) {
@@ -32,7 +29,5 @@ function ordinalSuffix(num) {
     }
 }
 
-module.exports = {
-  ordinalSuffix,
-}
+export = ordinalSuffix;
 // console.log(addSuffix(422));
