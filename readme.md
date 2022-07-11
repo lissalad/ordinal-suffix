@@ -1,8 +1,18 @@
 # Ordinal Suffix
 format a number with its ordinal suffix
 
-## Installation
-`npm i lissa-ordinal-suffix`
+## Installation  
+
+in your terminal type:  
+
+`npm i lissa-ordinal-suffix`  
+
+  
+  
+at the top of your file put:
+```ts
+ const ordinalSuffix = require('lissa-ordinal-suffix');
+```
 
 ## Usage
 # ordinalSuffix()
